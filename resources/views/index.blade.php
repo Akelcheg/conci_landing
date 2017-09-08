@@ -287,6 +287,24 @@
                     </div>
                     <div class="col-md-7">
 
+                        <p class="stated-header-text-dance">
+                            <span class="yellow">Thank you!</span> Our manager will contact you
+                            as soon as he’s done with his <span class="yellow">dance</span>
+                        </p>
+
+                        <div class="row dancing-social">
+                            <div class="col-md-4"><p>For now, you can join us on Facebook</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="img-responsive pull-right" src="images/facebook-logo-in-circular-button-outlined-social-symbol.svg" style="width: 50%;">
+                            </div>
+                            <div class="col-md-4"><p>or share with friends</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="img-responsive pull-right" src="images/Share.svg" style="width: 50%;">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

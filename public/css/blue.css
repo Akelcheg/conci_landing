@@ -1029,6 +1029,16 @@ p.stated-header-text {
     color: #000022;
 }
 
+p.stated-header-text-dance {
+    max-width: 485px;
+    height: 52px;
+    font-family: 'ProximaNova-Semibold', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #000022;
+}
+
 .stated-header-text-about{
     max-width: 550px;
     height: 78px;
@@ -1158,4 +1168,16 @@ p.error {
     margin-top: 10px;
     font-size: 18px;
     color: red;
+}
+
+div.dancing-social {
+    margin-top: 25%;
+}
+
+div.dancing-social p{
+    height: 44px;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #000022;
 }
