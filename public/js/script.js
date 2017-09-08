@@ -27,4 +27,17 @@ $(document).ready(function () {
 
     $(window).resize(updateScale);
     updateScale();
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    $("#get-started-send").click(function(){
+        $.post("get-started",
+            $("#get-started-form").serialize(), function(data) {
+
+            alert(data);
+
+        });
+    });
 });

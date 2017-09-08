@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Conci</title>
 
     <link rel="stylesheet" type="text/css" href="./fonts/fonts.min.css"/>
@@ -140,31 +140,33 @@
                             simply give us your contact information
                         </p>
 
+                        <p class="error">das</p>
+
                         <form id="get-started-form" method="POST" action="#" novalidate="novalidate">
 
                             <div class="form-group">
-                                <input type="email" name="email" id="email" class="form-control input-sm"
-                                       placeholder="Email Address">
+                                <input type="text" name="full_name" id="full_name" class="form-control input-sm"
+                                       placeholder="Full name">
                             </div>
 
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="password" name="password" id="password"
-                                               class="form-control input-sm" placeholder="Password">
+                                        <input type="text" name="phone_number" id="phone_number"
+                                               class="form-control input-sm" placeholder="Phone number">
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
-                                        <input type="password" name="password_confirmation" id="password_confirmation"
-                                               class="form-control input-sm" placeholder="Confirm Password">
+                                        <input type="text" name="email" id="email"
+                                               class="form-control input-sm" placeholder="Enter">
                                     </div>
                                 </div>
                             </div>
 
-                            <button type="submit" class="btn btn-success send-button">
+                            <a href="#" class="btn btn-success send-button" id="get-started-send">
                                 <span>Send</span>
-                            </button>
+                            </a>
                         </form>
 
                     </div>

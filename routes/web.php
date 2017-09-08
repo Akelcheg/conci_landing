@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+
+/*Route::post('get-started', function(Request $request) {
+    return StartedForm::create($request->all);
+});*/
+
+Route::post('get-started','StartedFormController@saveUser');
