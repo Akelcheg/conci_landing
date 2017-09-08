@@ -140,7 +140,7 @@
                             simply give us your contact information
                         </p>
 
-                        <p class="error">das</p>
+                        <p class="error"></p>
 
                         <form id="get-started-form" method="POST" action="#" novalidate="novalidate">
 
@@ -159,7 +159,7 @@
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
                                         <input type="text" name="email" id="email"
-                                               class="form-control input-sm" placeholder="Enter">
+                                               class="form-control input-sm" placeholder="Email">
                                     </div>
                                 </div>
                             </div>
@@ -271,10 +271,34 @@
     </div>
 </div>
 
+
+<div class="modal fade" id="dancing-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <img src="images/close_button.svg">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="img-responsive pull-right" src="images/dancing_hero.png" style="width: 75%;">
+                    </div>
+                    <div class="col-md-7">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="/js/jquery-1.9.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/retina.js"></script>
 {{--<script src="/js/respond.min.js"></script>--}}
 <script src="/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 </body>
 </html>

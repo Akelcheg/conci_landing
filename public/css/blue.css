@@ -1152,3 +1152,10 @@ form#get-started-form .send-button span{
 .how-it-works-list span.yellow {
     margin-right: 10px;
 }
+
+p.error {
+    display: none;
+    margin-top: 10px;
+    font-size: 18px;
+    color: red;
+}

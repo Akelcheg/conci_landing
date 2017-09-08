@@ -21,8 +21,8 @@ $(document).ready(function () {
         }
 
         $lay.css('transform', 'scale(' + newScale + ',' + newScale + ')');
-/*
-        console.log(newScale);*/
+        /*
+                console.log(newScale);*/
     }
 
     $(window).resize(updateScale);
@@ -32,12 +32,24 @@ $(document).ready(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    $("#get-started-send").click(function(){
+    $("#get-started-send").click(function () {
         $.post("get-started",
-            $("#get-started-form").serialize(), function(data) {
+            $("#get-started-form").serialize(), function (data) {
+                console.log(data);
+                $("p.error").hide();
 
-            alert(data);
+                if (data['status'] == 0) {
+                    $(".error").show();
+                    $(".error").text(data['message']);
+                } else {
+                    $("p.error").hide();
+                    $('#get-started-modal').modal('hide');
+                    $("#dancing-modal").modal();
+                }
 
-        });
+
+            });
     });
+
+    $('#phone_number').mask('(000) 000-0000');
 });
