@@ -30,8 +30,6 @@
             </div>
             <div class="collapse navbar-collapse" id="main_menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#dancing-modal">About12</a>
-                    </li>
                     <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#about-modal">About</a></li>
                     <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#how-it-works-modal">How it
                             works?</a></li>
@@ -293,16 +291,22 @@
 <script src="/js/jquery.mask.min.js"></script>
 <script src="/js/scripts.js"></script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-106162019-1', 'auto');
     ga('send', 'pageview');
 
 </script>
-
 
 
 <script type="text/javascript">
