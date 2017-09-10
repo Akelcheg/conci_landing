@@ -15,7 +15,7 @@ class StartedFormController extends Controller
 
         $validator = Validator::make($request->all(), [
             'full_name' => 'required|max:255',
-            'phone_number' => 'required',
+            'phone_number' => 'required|unique:started_form',
             'email' => 'email|unique:started_form'
         ]);
 

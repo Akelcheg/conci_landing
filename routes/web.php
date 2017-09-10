@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('main');
 });
 
 /*Route::post('get-started', function(Request $request) {
