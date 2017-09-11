@@ -30,4 +30,8 @@ return [
 
     'menu_about' => 'About',
     'menu_how_it_works' => 'How it works ?',
+
+    'get_started_form_name' => 'Full name',
+    'get_started_form_phone' => 'Phone number',
+    'get_started_form_email' => 'Email',
 ];

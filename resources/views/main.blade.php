@@ -106,20 +106,20 @@
 
                             <div class="form-group">
                                 <input type="text" name="full_name" id="full_name" class="form-control input-sm"
-                                       placeholder="Full name">
+                                       placeholder="@lang('texts.get_started_form_name')">
                             </div>
 
                             <div class="row">
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
                                         <input type="text" name="phone_number" id="phone_number"
-                                               class="form-control input-sm" placeholder="Phone number">
+                                               class="form-control input-sm" placeholder="@lang('texts.get_started_form_phone')">
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="form-group">
                                         <input type="text" name="email" id="email"
-                                               class="form-control input-sm" placeholder="Email">
+                                               class="form-control input-sm" placeholder="@lang('texts.get_started_form_email')">
                                     </div>
                                 </div>
                             </div>

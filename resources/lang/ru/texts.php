@@ -29,4 +29,8 @@ return [
 
     'menu_about' => 'О нас',
     'menu_how_it_works' => 'Как это работает ?',
+
+    'get_started_form_name' => 'Полное имя',
+    'get_started_form_phone' => 'Телефон',
+    'get_started_form_email' => 'Email',
 ];
