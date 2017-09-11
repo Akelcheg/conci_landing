@@ -1225,7 +1225,7 @@ form#get-started-form input {
 }
 
 form#get-started-form .send-button{
-  /*width: 117px;*/
+  min-width: 117px;
   height: 46px;
   border-radius: 100px;
   background-color: #fdc935;
