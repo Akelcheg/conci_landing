@@ -22,5 +22,7 @@ return [
 
     'button_join_us' => 'Join us',
     'button_apply' => 'Apply',
-    'button_get_started' => 'Get Started'
+    'button_get_started' => 'Get Started',
+    'menu_about' => 'About',
+    'menu_how_it_works' => 'How it works ?',
 ];
