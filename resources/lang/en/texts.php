@@ -20,6 +20,9 @@ return [
     'get_started_popup_header' => 'In order to be part of <span class="yellow">Conci</span>,<br>simply give us your contact information',
     'get_started_thank_you' => '<span class="yellow">Thank you!</span> Our manager will contact youas soon as he’s done with his <span class="yellow">dance</span>',
 
+    'get_started_thank_you.follow' => 'For now, you can join us on Facebook',
+    'get_started_thank_you.share' => 'or share with friends',
+
     'button_join_us' => 'Join us',
     'button_apply' => 'Apply',
     'button_get_started' => 'Get Started',

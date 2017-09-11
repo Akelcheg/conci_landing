@@ -19,6 +19,9 @@ return [
     'get_started_popup_header' => 'Чтобы стать частью нашей команды,<br> оставь нам свою контактную информацию',
     'get_started_thank_you' => '<span class="yellow">Спасибо,</span>  наш менеджер свяжется с вами как только закончит <span class="yellow">танцевать</span>!',
 
+    'get_started_thank_you.follow' => 'Ты можешь присоединиться к нам в фейсбуке',
+    'get_started_thank_you.share' => 'или поделиться с друзьями.',
+
     'button_join_us' => 'Начни работать',
     'button_send' => 'Отправить',
     'button_apply' => 'Начать',

@@ -275,7 +275,7 @@
                             <div class="mt-100"></div>
 
                             <div class="row dancing-social">
-                                <div class="col-md-4"><p>For now, you can join us on Facebook</p>
+                                <div class="col-md-4"><p>@lang('texts.get_started_thank_you.follow')</p>
                                 </div>
                                 <div class="col-md-2">
                                     <a href="https://www.facebook.com/ConciUkraine/">
@@ -283,7 +283,7 @@
                                              src="images/facebook-logo-in-circular-button-outlined-social-symbol.svg">
                                     </a>
                                 </div>
-                                <div class="col-md-4"><p>or share with friends</p>
+                                <div class="col-md-4"><p>@lang('texts.get_started_thank_you.share')</p>
                                 </div>
                                 <div class="col-md-2">
                                     <img class="img-responsive" src="images/Share.svg">
