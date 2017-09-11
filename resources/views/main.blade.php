@@ -30,14 +30,13 @@
             </div>
             <div class="collapse navbar-collapse" id="main_menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#about-modal">About</a></li>
-                    <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#how-it-works-modal">How it
-                            works?</a></li>
+                    <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#about-modal">@lang('texts.menu_about')</a></li>
+                    <li><a class="scroll-section" href="#" data-toggle="modal" data-target="#how-it-works-modal">@lang('texts.menu_how_it_works')</a></li>
 
 
                     <li class="active">
                         <a class="scroll-section" href="#" data-toggle="modal"
-                           data-target="#get-started-modal">Apply</a></li>
+                           data-target="#get-started-modal">@lang('texts.button_apply')</a></li>
 
                 </ul>
             </div>
@@ -52,14 +51,20 @@
             <div class="row" style="height: 100vh;">
                 <div class="col-md-7">
                     <div class="mt-225"></div>
-                    <h3>With <span class="yellow">Conci</span> you <br>will make more <span class="yellow">money</span>
+
+                    <h3>
+                        @lang('texts.main_text')
+                        {{--With <span class="yellow">Conci</span> you <br>will make more <span class="yellow">money
+                        </span>--}}
+
                     </h3>
-                    <p>You think that you can only make good money working in an office?<br>
-                        Work should bring you joy! With Conci making money became even easier</p>
+                    {{--<p>You think that you can only make good money working in an office?<br>
+                        Work should bring you joy! With Conci making money became even easier</p>--}}
+                    <p>@lang('texts.main_text_p')</p>
 
                     <a class="btn btn-default" href="#" data-toggle="modal" data-target="#get-started-modal"
                        role="button">
-                        <span>Get started</span>
+                        <span>@lang('texts.button_get_started')</span>
                     </a>
 
                 </div>
@@ -90,8 +95,9 @@
                     <div class="col-md-7">
 
 
-                        <p class="stated-header-text">In order to be part of <span class="yellow">Conci</span>,<br>
-                            simply give us your contact information
+                        <p class="stated-header-text">{{--In order to be part of <span class="yellow">Conci</span>,<br>
+                            simply give us your contact information--}}
+                            @lang('texts.get_started_popup_header')
                         </p>
 
                         <p class="error"></p>
@@ -119,7 +125,7 @@
                             </div>
                             <div class="mt-50 hidden-sm hidden-xs"></div>
                             <a href="#" class="btn send-button" id="get-started-send">
-                                Send
+                                @lang('texts.button_send')
                             </a>
                         </form>
 
@@ -150,9 +156,10 @@
                         <div class="col-md-7">
 
                             <p class="stated-header-text-about">
-                                <span class="yellow">Conci</span> is an affordable concierge service, where the<br>
+                                {{--<span class="yellow">Conci</span> is an affordable concierge service, where the<br>
                                 priority is to make tourists <span class="yellow">feel comfortable</span> in a <br>foreign
-                                country. Our guides are:
+                                country. Our guides are:--}}
+                                @lang('texts.about_popup_header')
                             </p>
 
 
@@ -160,32 +167,36 @@
                                 <div class="row">
                                     <div class="span4" style="display: inline;">
                                         <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>Professional and Friendly</p></div>
+                                        <div class="content-heading"><p>@lang('texts.list_1')</p></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="span4" style="display: inline;">
                                         <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>Speak English Fluently</p></div>
+                                        <div class="content-heading"><p>@lang('texts.list_2')</p></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="span4" style="display: inline;">
                                         <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>Know City’s Top Places</p></div>
+                                        <div class="content-heading"><p>@lang('texts.list_3')</p></div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="span4" style="display: inline;">
-                                        <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>Verified and Qualified</p></div>
+
+                                <?php if (Lang::get('texts.list_4')!='') {?>
+                                    <div class="row">
+                                        <div class="span4" style="display: inline;">
+                                            <img style="float:left; width:auto; height:auto" src="images/c.png"/>
+                                            <div class="content-heading"><p>@lang('texts.list_4')</p></div>
+                                        </div>
                                     </div>
-                                </div>
+                                <?php } ?>
+
                             </div>
 
                             <button type="submit" class="btn join-us-button" data-toggle="modal"
                                     data-target="#get-started-modal">
-                                <span>Join us</span>
+                                <span>@lang('texts.button_join_us')</span>
                             </button>
                         </div>
                         <div class="col-md-1"></div>
@@ -214,20 +225,21 @@
                         <div class="col-md-7">
 
                             <p class="stated-header-text-how-it-works">
-                                How it <span class="yellow">works</span>?
+                                {{--How it <span class="yellow">works</span>?--}}
+                                @lang('texts.how_it_works_header')
                             </p>
 
                             <div class="how-it-works-list">
-                                <p><span class="yellow">01</span>Download the App and register in the system</p>
-                                <p><span class="yellow">02</span>Conci manager will connect with you</p>
-                                <p><span class="yellow">03</span>Get your first order</p>
-                                <p><span class="yellow">04</span>Lead the tour/help the client</p>
-                                <p><span class="yellow">05</span>Get your money</p>
-                                <p><span class="yellow">06</span>Repeat every day</p>
+                                <p>@lang('texts.how_it_works_list_1')</p>
+                                <p>@lang('texts.how_it_works_list_2')</p>
+                                <p>@lang('texts.how_it_works_list_3')</p>
+                                <p>@lang('texts.how_it_works_list_4')</p>
+                                <p>@lang('texts.how_it_works_list_5')</p>
+                                <p>@lang('texts.how_it_works_list_6')</p>
                             </div>
                             <button type="submit" class="btn join-us-button" data-toggle="modal"
                                     data-target="#get-started-modal">
-                                <span>Join us</span>
+                                <span>@lang('texts.button_join_us')</span>
                             </button>
                         </div>
                     </div>
@@ -255,8 +267,9 @@
                         <div class="col-md-7">
 
                             <p class="stated-header-text-dance">
-                                <span class="yellow">Thank you!</span> Our manager will contact you
-                                as soon as he’s done with his <span class="yellow">dance</span>
+                                {{--<span class="yellow">Thank you!</span> Our manager will contact you
+                                as soon as he’s done with his <span class="yellow">dance</span>--}}
+                                @lang('texts.get_started_thank_you')
                             </p>
 
                             <div class="mt-100"></div>
@@ -294,8 +307,8 @@
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
         a = s.createElement(o),
             m = s.getElementsByTagName(o)[0];
         a.async = 1;
