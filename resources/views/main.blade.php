@@ -90,7 +90,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-5">
-                        <img class="img-responsive pull-right" src="images/hero_pop_up.png">
+                        <img class="img-responsive pull-right started-hero" src="images/hero_pop_up.png">
                     </div>
                     <div class="col-md-7">
 

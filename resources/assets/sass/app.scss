@@ -2801,3 +2801,9 @@ div.dancing-social p{
   text-align: left;
   color: #000022;
 }
+
+@media (max-width:992px) {
+  .started-hero {
+    width: 50%;
+  }
+}
