@@ -8,7 +8,7 @@ return [
     'about_popup_header' => 'Вас приветствует компания Conci. <br>
 Всю информацию о нас, Вы можете просмотреть на нашем официальном сайте <a href="http://conci.info">conci.info</a>.<br> 
 Если Вас заинтересовала работа, отправляйте нам свои резюме на почту
-<a href="mailto:someone@example.com" target="_top">i.borys@conci.info</a>   
+<a href="mailto:i.borys@conci.info" target="_top">i.borys@conci.info</a>   
 после чего с Вами свяжется рекрутер .',
     'list_1' => 'Профессиональны и дружелюбный',
     'list_2' => 'Свободно владеют английским языком',

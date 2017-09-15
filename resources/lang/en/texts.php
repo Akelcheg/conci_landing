@@ -9,7 +9,7 @@ return [
                                 country. Our guides are:',*/
     'about_popup_header' => 'Welcome to <span class="yellow">Conci</span>.<br>
 All information about us, you can view on our official website <a href="http://conci.info">conci.info</a>.<br>
-If you are interested in the job, send us your CVs to <a href="mailto:someone@example.com" target="_top">i.borys@conci.info</a> after which the recruiter will contact you.<br>
+If you are interested in the job, send us your CVs to <a href="mailto:i.borys@conci.info" target="_top">i.borys@conci.info</a> after which the recruiter will contact you.<br>
 With HI. Conci)',
 
     'list_1' => 'Professional and Friendly',
