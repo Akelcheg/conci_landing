@@ -3,9 +3,15 @@
 return [
     'main_text' => 'With <span class="yellow">Conci</span> you <br>will make more <span class="yellow">money</span>',
     'main_text_p' => 'You think that you can only make good money working in an office?<br>Work should bring you joy! With Conci making money became even easier',
-    'about_popup_header' => '<span class="yellow">Conci</span> is an affordable concierge service, where the<br>
+
+    /*'about_popup_header' => '<span class="yellow">Conci</span> is an affordable concierge service, where the<br>
                                 priority is to make tourists <span class="yellow">feel comfortable</span> in a <br>foreign
-                                country. Our guides are:',
+                                country. Our guides are:',*/
+    'about_popup_header' => 'Welcome to <span class="yellow">Conci</span>.<br>
+All information about us, you can view on our official website <a href="http://conci.info">conci.info</a>.<br>
+If you are interested in the job, send us your CVs to <a href="mailto:someone@example.com" target="_top">i.borys@conci.info</a> after which the recruiter will contact you.<br>
+With HI. Conci)',
+
     'list_1' => 'Professional and Friendly',
     'list_2' => 'Speak English Fluently',
     'list_3' => 'Know City’s Top Places',
