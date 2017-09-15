@@ -162,38 +162,6 @@
                                 @lang('texts.about_popup_header')
                             </p>
 
-
-                            <div class="paragraphs about-list">
-                                <div class="row">
-                                    <div class="span4" style="display: inline;">
-                                        <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>@lang('texts.list_1')</p></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="span4" style="display: inline;">
-                                        <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>@lang('texts.list_2')</p></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="span4" style="display: inline;">
-                                        <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                        <div class="content-heading"><p>@lang('texts.list_3')</p></div>
-                                    </div>
-                                </div>
-
-                                <?php if (Lang::get('texts.list_4')!='') {?>
-                                    <div class="row">
-                                        <div class="span4" style="display: inline;">
-                                            <img style="float:left; width:auto; height:auto" src="images/c.png"/>
-                                            <div class="content-heading"><p>@lang('texts.list_4')</p></div>
-                                        </div>
-                                    </div>
-                                <?php } ?>
-
-                            </div>
-
                             <button type="submit" class="btn join-us-button" data-toggle="modal"
                                     data-target="#get-started-modal">
                                 <span>@lang('texts.button_join_us')</span>
